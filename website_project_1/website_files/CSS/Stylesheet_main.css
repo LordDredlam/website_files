@@ -29,7 +29,7 @@
 
 #navbar__logo{
     background-color: #ff8177;
-    background-image: linear-gradient(to top,#ff0844 0%,#ffb199 100%,);
+    background-image: linear-gradient(top,#ff0844 20%,#ffb199 100%,);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -64,7 +64,34 @@
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    padding: 0, 1rem;
+    padding: 1rem;
     height: 100%;
 
+}
+
+.navbar__btn{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    width: 100%;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding:  10px;
+    height:  100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: #f77062;
+    color: white;
+}
+
+.button:hover{
+    background: #f837ff;
+    transition: all 0.3s ease;
 }
