@@ -10,6 +10,32 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+table,tr,th,td {
+    border:1px solid black;
+ }
+.login_form_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3a3434;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3%;
+    width: 50%;
+    margin-top: 5%;
+    border-radius: 5px;
+}
+.main_body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3a3434;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3%;
+    width: 70%;
+}
 .navbar{
     background: #131313;
     height: 80px;
@@ -106,6 +132,7 @@ body {
     background: #f77062;
     transition: all 0.3s ease;
 }
+
 
 @media  screen and (max-width: 960px) {
     .navbar__container{
