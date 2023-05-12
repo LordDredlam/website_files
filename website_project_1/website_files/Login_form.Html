@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estus Studios </title>
-    <link rel="icon" href ="website_project_1/Image_assets/icon/favicon.ico" />
+    <link rel="shortcut icon" type ="x-icon" href ="CSS/Image_assets/icon/Icon_symbol(let_me_solo_her).png" />
     
     <link rel="stylesheet" href="CSS/Stylesheet_main.css">
 </head> 
@@ -50,17 +50,38 @@
         </div>
     </nav>
     <div class="login_form_box">
-
+        
         <form class = "Login_form">
-            <h2>Login</h1>
-            <label for="fname">First name:</label><br>
-            <input type="text" id="fname" name="fname" value="John"><br>
-            <label for="lname">Last name:</label><br>
-            <input type="text" id="lname" name="lname" value="Doe">
+            <h1>Welcome!</h1>
+            <div class = "login_half">
+                <h2>Login</h1>
+                    <label for="fname">Email</label><br>
+                    <input type="text" id="login_email" name="email_input" ><br>
+                    <label for="lname">Password</label><br>
+                    <input type="text" id="login_pass" name="password_input" >
+                    <br>
+                    <div id = "alert_box">
+
+                    </div>
+                    <br>
+                    <button class = "button_login_sign_in" id = "Login_button" > submit </button>
+            </div>
+            <div class = "sign_in_half">
+                <h2>Don't have an account? Sign in here!</h1>
+                    <label for="fname">Email:</label><br>
+                    <input type="text" id="sign-in_email" name="fname" placeholder="example@gmail.com"><br>
+                    <label for="lname">Password</label><br>
+                    <input type="text" id="sign-in_password_1" name="Password" placeholder="123abc"><br>
+                    <label for="lname">Password Confirmation</label><br>
+                    <input type="text" id="sign-in_password_2" name="Password" placeholder="123abc"> 
+                    <br>
+                    <button class = "button_login_sign_in" id = "sign-in_button"> Join now! </button>
+            </div>
           </form>
 
-    </div>
 
+    </div>
+    <script src = "Javascript/app.js"></script>
     
 </body>
 </html>
